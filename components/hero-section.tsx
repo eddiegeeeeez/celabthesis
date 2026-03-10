@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden px-4 py-24 md:py-32">
+    <section className="relative overflow-hidden px-4 py-16 sm:py-24 md:py-32">
       {/* Background image */}
       <Image
         src="/um-building.jpg"
@@ -30,7 +30,7 @@ export function HeroSection() {
 
         <div className="space-y-4">
           <h1
-            className="animate-fade-up text-balance text-4xl font-bold tracking-tight text-white md:text-5xl xl:text-6xl"
+            className="animate-fade-up text-balance text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl xl:text-6xl"
             style={{ animationDelay: '0.2s' }}
           >
             Civil Engineering{' '}
@@ -52,7 +52,7 @@ export function HeroSection() {
         />
 
         <div
-          className="animate-fade-up flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-white/70"
+          className="animate-fade-up flex flex-wrap items-center justify-center gap-x-4 gap-y-3 text-sm text-white/70 sm:gap-x-6"
           style={{ animationDelay: '0.52s' }}
         >
           <div className="flex items-center gap-1.5">

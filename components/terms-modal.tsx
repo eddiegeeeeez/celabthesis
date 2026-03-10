@@ -24,7 +24,7 @@ export function TermsModal() {
     <Dialog open={open} modal>
       <DialogContent
         showCloseButton={false}
-        className="flex flex-col max-h-[80vh] p-0 sm:max-w-2xl rounded-xl border shadow-lg"
+        className="flex flex-col max-h-[90dvh] p-0 w-[calc(100%-2rem)] sm:max-w-2xl rounded-xl border shadow-lg"
         onInteractOutside={(e) => e.preventDefault()}
         onEscapeKeyDown={(e) => e.preventDefault()}
       >
@@ -109,8 +109,8 @@ export function TermsModal() {
         </div>
 
         {/* Footer */}
-        <DialogFooter className="flex-shrink-0 border-t px-6 py-4 flex flex-col sm:flex-row sm:justify-between gap-4 bg-background">
-          <label className="flex items-center gap-2 text-sm cursor-pointer">
+        <DialogFooter className="flex-shrink-0 border-t px-4 py-4 sm:px-6 flex flex-col gap-3 bg-background">
+          <label className="flex items-center gap-2.5 text-sm cursor-pointer select-none">
             <input
               type="checkbox"
               checked={accepted}
@@ -120,7 +120,7 @@ export function TermsModal() {
             I have read and accept the Terms and Conditions
           </label>
 
-          <Button disabled={!accepted} onClick={handleAccept}>
+          <Button disabled={!accepted} onClick={handleAccept} className="w-full sm:w-auto sm:self-end">
             Proceed to Portal
           </Button>
         </DialogFooter>

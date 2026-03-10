@@ -38,14 +38,14 @@ export function DocumentCard({ title, description, icon: Icon, category, fileTyp
 
       <CardContent className="mt-auto pb-4 pt-0">
         {href ? (
-          <Button size="sm" className="h-8 w-full gap-2 text-xs" asChild>
+          <Button size="sm" className="h-10 w-full gap-2 text-xs sm:h-8" asChild>
             <a href={href} target="_blank" rel="noopener noreferrer">
               <Download className="h-3.5 w-3.5" />
               Open {fileType}
             </a>
           </Button>
         ) : (
-          <Button size="sm" variant="outline" className="h-8 w-full gap-2 text-xs" disabled>
+          <Button size="sm" variant="outline" className="h-10 w-full gap-2 text-xs sm:h-8" disabled>
             <Clock className="h-3.5 w-3.5" />
             Coming Soon
           </Button>
