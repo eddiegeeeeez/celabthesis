@@ -20,9 +20,9 @@ const documents: Document[] = [
     fileType: 'PDF',
   },
   {
-    title: 'Testing Format Guidelines',
+    title: 'Testing Format',
     description:
-      'Format specifications, templates, and requirements for all assessment submissions.',
+      'Format specifications for Concrete and Tensile Testing samples, templates, and requirements for all assessment submissions.',
     icon: FileCheck,
     category: 'Guidelines',
     fileType: 'Folder',
@@ -31,7 +31,7 @@ const documents: Document[] = [
   {
     title: 'Equipment Borrowing Slip',
     description:
-      'Official form to request and track laboratory equipment loans and checkout records.',
+      'Official form to request and track laboratory equipment during laboratory usage.',
     icon: ClipboardList,
     category: 'Form',
     fileType: 'PDF',
@@ -49,7 +49,7 @@ const documents: Document[] = [
   {
     title: 'Laboratory Access Request',
     description:
-      'Schedule lab sessions and request special facility access or equipment permissions.',
+      'Schedule lab sessions and request facility access or equipment permissions.',
     icon: Beaker,
     category: 'Request',
     fileType: 'PDF',
