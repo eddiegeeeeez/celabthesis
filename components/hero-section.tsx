@@ -41,8 +41,8 @@ export function HeroSection() {
           className="animate-fade-up mx-auto mb-8 max-w-lg text-balance text-sm leading-relaxed text-white/75 sm:text-base md:text-lg"
           style={{ animationDelay: '0.32s' }}
         >
-          Download official forms, test result sheets, clearance documents, and laboratory
-          resources — no sign-in needed.
+          Download official forms, clearance documents, test result sheets, and laboratory
+          resources — for both class students and thesis students. No sign-in needed.
         </p>
 
         <Separator

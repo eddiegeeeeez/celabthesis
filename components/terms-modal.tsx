@@ -34,7 +34,7 @@ export function TermsModal() {
             Terms and Conditions
           </DialogTitle>
           <DialogDescription>
-            Please read the following terms before accessing the Civil Engineering Laboratory portal.
+            Please read the following terms before accessing the Civil Engineering Laboratory Documents Portal. This applies to all students — whether you are enrolled in a laboratory class or working on your thesis.
           </DialogDescription>
         </DialogHeader>
 
@@ -44,9 +44,10 @@ export function TermsModal() {
           <section className="space-y-1.5">
             <h3 className="font-semibold text-foreground">1. Who Can Use This Portal</h3>
             <p className="text-muted-foreground leading-relaxed">
-              This portal is free to use for all students of the University of Mindanao who are
-              currently enrolled in thesis subjects under the College of Engineering. Faculty members
-              and authorized laboratory personnel may also access this portal as needed.
+              This portal is open to all students of the University of Mindanao who are currently
+              using the Civil Engineering Laboratory — including students enrolled in laboratory
+              classes and those working on thesis research. Faculty members and authorized laboratory
+              personnel may also access this portal as needed.
             </p>
           </section>
 
@@ -54,9 +55,9 @@ export function TermsModal() {
             <h3 className="font-semibold text-foreground">2. Purpose of the Portal</h3>
             <p className="text-muted-foreground leading-relaxed">
               This portal is intended for accessing and downloading official Civil Engineering
-              Laboratory documents, including testing results, forms, guidelines, and clearance
-              materials related to your thesis requirements. All documents are provided by the
-              laboratory for legitimate academic use.
+              Laboratory documents. This includes testing results, equipment forms, clearance
+              requirements, and guidelines relevant to both laboratory class students and thesis
+              students. All documents are provided by the laboratory for legitimate academic use.
             </p>
           </section>
 
@@ -64,9 +65,9 @@ export function TermsModal() {
             <h3 className="font-semibold text-foreground">3. Proper Use of Documents</h3>
             <p className="text-muted-foreground leading-relaxed">
               Documents downloaded from this portal should be used only for academic and institutional
-              purposes related to your thesis. Please handle all forms and results responsibly and
-              submit them through the proper channels as required by your thesis adviser or laboratory
-              staff.
+              purposes. Class students should submit applicable forms to their instructor or laboratory
+              staff. Thesis students should submit documents through the proper channels as required
+              by their thesis adviser or the laboratory office.
             </p>
           </section>
 

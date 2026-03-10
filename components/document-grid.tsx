@@ -8,6 +8,9 @@ interface Document {
   category: string;
   fileType: string;
   href?: string;
+  hrefLabel?: string;
+  secondaryHref?: string;
+  secondaryLabel?: string;
 }
 
 const documents: Document[] = [
@@ -40,11 +43,14 @@ const documents: Document[] = [
   {
     title: 'Student Clearance Form',
     description:
-      'Complete and submit thesis clearance applications and supporting documentation.',
+      'Official clearance forms for both class students and thesis students. Download the version that applies to you.',
     icon: GraduationCap,
     category: 'Form',
     fileType: 'PDF',
     href: 'https://drive.google.com/file/d/1HYR06T_r4GwxO711PE5E-FzEd9ysss1_/view',
+    hrefLabel: 'Clearance – Thesis',
+    secondaryHref: 'https://drive.google.com/file/d/1afBKSpEIQWxKkEwlEgCRi9g3PITIeP7Z/view',
+    secondaryLabel: 'Clearance – Class',
   },
   {
     title: 'Laboratory Access Request',
